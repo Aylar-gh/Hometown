@@ -1,0 +1,160 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: "Fredoka", sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 500px; /* Define the height for the .head section */
+    background-image: url("images/Toronto.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content vertically */
+    text-align: center;
+}
+
+#cityName {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px; /* Adding rounded corners */
+    font-size: 1.5em; /* Adjust font size */
+    margin-bottom: 10px; /* Space between cityName and explanation */
+}
+
+#Toronto-explaining {
+    background-color: blue;
+    color: white;
+    width: 250px; /* Adjust width to make it bigger */ 
+    padding: 20px 30px; /* Adjust padding for size */
+    border-radius: 10px; /* Adding rounded corners */
+    font-size: 1.2em; /* Adjust font size */
+    margin: 10px 0;
+}
+
+.toronto-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent background for readability */
+    padding: 20px; /* Adding padding for better spacing */
+    border-radius: 20px; /* Adding rounded corners to the entire section */
+    text-align: center;
+}
+.activities {
+    background-color: antiquewhite;
+    color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#explaining-activities {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.places-list {
+    display: flex;
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin: 20px 0; /* Add margin to the list */
+    gap: 20px;
+    justify-content: center; /* Center the list items horizontally */
+    font-family: "Fredoka", sans-serif;
+    width: 50%;
+}
+
+.places-list li {
+    background-color: #f0f0f0; /* Background color for list items */
+    padding: 10px 20px; /* Padding for list items */
+    border-radius: 40px; /* Rounded corners for list items */
+    font-family: 'Fredoka One', sans-serif; /* Fun heading font */
+    font-size: 1em; /* Adjust font size */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+
+    flex: 1; /* Make list items flexibly fill available space */
+    min-width: 200px; /* Ensure minimum width */
+    max-width: 300px; /* Ensure maximum width */
+    height: 300px;
+}
+.places-list li img{
+    
+    width: 100px; /* Set a fixed width for images */
+    height: 100px; /* Set fixed height for images */
+    border-radius: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.places-list li h3 {
+    margin: 10px 0 5px 0; /* Add margin around heading */
+    font-size: 1.2em; /* Adjust font size for headings */
+}
+.places-list li p {
+    font-size: 0.9em; /* Adjust font size for paragraph text */
+    margin: 0px; /* Remove default margin */
+
+    flex-grow: 1; /* Make paragraph take up remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.end {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.description img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.guide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.guide h2, .guide h4, .guide p {
+    margin: 5px 0;
+}
+
+.guide p {
+    font-style: italic;
+    text-align: left;
+}
